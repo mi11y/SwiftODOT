@@ -1,0 +1,137 @@
+{
+    "fields": [
+        {
+            "name": "id",
+            "alias": "routeOriginId",
+            "type": "esriFieldTypeOID"
+        },
+        {
+            "name": "locationName",
+            "alias": "Location Name",
+            "type": "esriFieldTypeString",
+            "length": 200
+        },
+        {
+            "name": "iconType",
+            "alias": "Icon Type",
+            "type": "esriFieldTypeInteger"
+        },
+        {
+            "name": "latitude",
+            "alias": "Latitude",
+            "type": "esriFieldTypeDouble"
+        },
+        {
+            "name": "longitude",
+            "alias": "Longitude",
+            "type": "esriFieldTypeDouble"
+        },
+        {
+            "name": "routes",
+            "alias": "Route Calculations",
+            "type": "esriFieldTypeString",
+            "length": 50
+        }
+    ],
+    "geometryType": "esriGeometryPoint",
+    "spatialReference": {
+        "wkid": 3857
+    },
+    "features": [
+        {
+            "attributes": {
+                "origId": 2,
+                "locationName": "[ORE217|sign-ore217.png] NB; Allen Blvd",
+                "iconType": 25,
+                "latitude": 45.476230,
+                "longitude": -122.789040,
+                "routes": [
+                    {
+                        "id": 116,
+                        "routeDest": "NW 185th/[US26|sign-us26.png] WB",
+                        "minRouteTime": 10,
+                        "dt": "2022-04-04T20:15:36.417-07:00",
+                        "travelTime": 10,
+                        "delay": 0,
+                        "failureMsg": "",
+                        "useAltMsg": false
+                    }
+                ]
+            },
+            "geometry": {
+                "x": -13668813.405892185,
+                "y": 5696808.340088332
+            }
+        },
+        {
+            "attributes": {
+                "origId": 3,
+                "locationName": "[US26|sign-us26.png] EB; NW 185th Ave",
+                "iconType": 25,
+                "latitude": 45.548290,
+                "longitude": -122.884730,
+                "routes": [
+                    {
+                        "id": 145,
+                        "routeDest": "[I-405|sign-i-405.png]",
+                        "minRouteTime": 14,
+                        "dt": "2022-04-04T20:15:36.433-07:00",
+                        "travelTime": 14,
+                        "delay": 0,
+                        "failureMsg": "",
+                        "useAltMsg": false
+                    },
+                    {
+                        "id": 146,
+                        "routeDest": "[ORE217|sign-ore217.png]",
+                        "minRouteTime": 7,
+                        "dt": "2022-04-04T20:15:36.433-07:00",
+                        "travelTime": 7,
+                        "delay": 0,
+                        "failureMsg": "",
+                        "useAltMsg": false
+                    }
+                ]
+            },
+            "geometry": {
+                "x": -13679465.567964712,
+                "y": 5708255.515613045
+            }
+        },
+        {
+            "attributes": {
+                "origId": 4,
+                "locationName": "[ORE217|sign-ore217.png] NB; SW Walker Rd",
+                "iconType": 25,
+                "latitude": 45.500110,
+                "longitude": -122.789000,
+                "routes": [
+                    {
+                        "id": 191,
+                        "routeDest": "[I-405|sign-i-405.png]; via US26 EB",
+                        "minRouteTime": 8,
+                        "dt": "2022-04-04T20:15:36.45-07:00",
+                        "travelTime": 8,
+                        "delay": 0,
+                        "failureMsg": "",
+                        "useAltMsg": false
+                    },
+                    {
+                        "id": 192,
+                        "routeDest": "NW 185th/[US26|sign-us26.png] WB",
+                        "minRouteTime": 9,
+                        "dt": "2022-04-04T20:15:36.45-07:00",
+                        "travelTime": 9,
+                        "delay": 0,
+                        "failureMsg": "",
+                        "useAltMsg": false
+                    }
+                ]
+            },
+            "geometry": {
+                "x": -13668808.953112553,
+                "y": 5700600.201997378
+            }
+        }
+    ]
+}
