@@ -7,7 +7,12 @@
 
 import Foundation
 
+/// A class that provides ODOT API URLComponents
+///
+/// Use this class in combination with the TripCheckClient to access API Endpoints from Oregon Department of Transportation.
 public class ServiceLocator {
+    
+    /// An API Endpoint for Highway Drive times.
     public static func driveTimeConfig() -> URLComponents {
         var components =  initURLComponents()
         components.host = "tripcheck.com"
