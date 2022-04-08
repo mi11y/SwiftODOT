@@ -22,6 +22,7 @@ class TripCheckClientTests: XCTestCase {
         mockConfiguration.setStatusCode(200)
         mockConfiguration.setDataResponse(TestData.driveTimeDataJSON.data)
         mockConfiguration.setAPIURL(ServiceLocator.driveTimeConfig())
+        mockConfiguration.ignoreQuery = true
         let session = mockConfiguration.mockAPIResponse()
 
         let expectation = self.expectation(description: "The correct endpoint was called")
